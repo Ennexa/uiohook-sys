@@ -1,0 +1,17 @@
+[package]
+name = "uiohook-sys"
+version = "0.1.0"
+authors = ["Joyce Babu <joyce@ennexa.com>"]
+edition = "2018"
+links = "uiohook"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "*"
+
+[features]
+default = ["static", "with-bindgen"]
+dynamic = []
+static = []
+with-bindgen = []
